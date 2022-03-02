@@ -16,8 +16,9 @@ app.use(bodyParser.json())
 
 
 // init route
-const route = require('../src/routes/main.route')
-route(app)
+// const routeMap = require('../src/routes/main.route')
+import routeMap from '../src/routes/main.route'
+routeMap(app)
 
 
 export default app

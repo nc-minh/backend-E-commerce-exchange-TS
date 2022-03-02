@@ -5,4 +5,5 @@ import { HomeControllersClass } from '../app/controllers/home.controllers'
 
 router.get('/', HomeControllersClass.index)
 
-module.exports = router
+// module.exports = router
+export default router
